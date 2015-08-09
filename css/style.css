@@ -1,0 +1,9 @@
+body {
+  background-image: url("project_images/political-globe.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1, h2 {
+  text-align: center;
+}
