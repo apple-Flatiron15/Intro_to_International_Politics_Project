@@ -1,9 +1,22 @@
 body {
-  background-image: url("project_images/political-globe.jpg");
+  background-image: url("../project_images/political-globe.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
-h1, h2 {
+h1, h2, h3 {
   text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+ol li {
+  font-weight: bold;
 }
