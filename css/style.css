@@ -17,6 +17,10 @@ h3 {
   text-decoration: underline;
 }
 
-ol li {
+/*ul {
   font-weight: bold;
+}*/
+
+li {
+  line-height: 1.5em;
 }
