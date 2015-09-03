@@ -46,3 +46,8 @@ td, th {
 th {
   font-size: 1.25em;
 }
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+}
