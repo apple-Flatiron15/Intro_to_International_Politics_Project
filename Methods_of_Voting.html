@@ -3,6 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Methods of Voting</title>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="javascript/tabs.js"></script>
 <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -14,6 +18,13 @@
   </header>
 
   <section>
+    <div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">Plurality/Majority Systems</a></li>
+      <li><a href="#tabs-2">Proportional Representation Voting Systems</a></li>
+    </ul>
+    
+  <div id="tabs-1">
     <h2><a href="https://www.mtholyoke.edu/acad/polit/damy/BeginnningReading/plurality.htm#smp" target="_blank"><strong>Single-Member District Plurality Voting (aka 'First-Past-the-Post (FPTP)' Voting)</strong></a></h2>
 
       <p><strong>FPTP</strong> involves a single candidate within a electoral district winning the most amount of votes, even if it is not an absolute majority (at least 50% + 1) of all voting constituents. This is the simplest form of voting utilized in local, statewide, and national elections in various countries around the world, such as the United States (U.S.), Canada, and the United Kingdom (U.K.), although each of these countries have a number of jurisdictions that utilize other forms of voting in certain elections.</p>
@@ -53,12 +64,15 @@
       <a href="https://www.youtube.com/user/CGPGrey/featured" target="_blank">CGP Grey</a>.
       </p>
     </div>
+ 
 
       <p>An alternative, but less-used, version of the IRV is the '<a href="https://www.mtholyoke.edu/acad/polit/damy/BeginnningReading/plurality.htm#tworound" target="_blank"><strong>Two-Round Runoff System</strong></a>,' which involves a runoff election that involves exactly two candidates that received the most amount of votes, but not an absolute majority to win the first round. Hence, both candidates would seek support between the two rounds of election to win votes from their constituents.</p> 
+  </div>
 
-    <h2><a href="https://www.mtholyoke.edu/acad/polit/damy/BeginnningReading/PRsystems.htm#party" target="_blank"><strong>Party-List Proportional Representation Voting (Open/Closed List)</strong></a></h2>
+  <div id="tabs-2">
+    <h2><a href="https://www.mtholyoke.edu/acad/polit/damy/BeginnningReading/PRsystems.htm#party" target="_blank"><strong>Party-List Proportional Representation Voting (PLPR) (Open/Closed List)</strong></a></h2>
       
-      <p><strong>Party-List Proportional Representation</strong> involves voters for their prefered political parties. Prior to the election, a select list of candidates from each party would be added to the ballot based on the number of [available] seats in each district. There are two main types of list systems: 'closed-party list' and 'open-party list':</p> 
+      <p><strong>Party-List Proportional Representation</strong> involves citizens voting for their prefered political parties. Prior to the election, a pre-selected list(s) of candidates from each party would be added to the ballot based on the number of [available] seats in each of their respective districts. There are two main types of list systems: 'closed-party list' and 'open-party list':</p> 
 
         <ol>
           <li id="cllt">In a '<a href="https://en.wikipedia.org/wiki/Closed_list" target="_blank"><strong>closed-party list</strong></a>,' the ballot would include:</li> 
@@ -80,7 +94,7 @@
 
               <li>Voters would only mark down the box of a particular candidate, which would also count as a vote for that candidate's respective political party. If a political party wins at least 1 or 2 seats based on the election results, the seat(s) would then be allocated to the party's respective candidate(s) with the most amount of votes received on the ballot.</li>
 
-              <li>There are different variants of open-list voting, based on different variables ranging from the use of quotas to determining how preferences are arranged on a list and how votes are distributed based on the election results.</li>
+              <li>There are different variants of open-list voting, based on certain variables ranging from the use of quotas ('Droop' or 'Hare') to determining how preferences are arranged on a list and how votes are distributed based on the election results.</li>
             </ul> 
         </ol>
 
@@ -141,7 +155,7 @@
 
       <p>Just like <a href="#irv">IRV</a>, STV involves voters ranking their candidates on the ballot in order of preference without the need to mark every checkbox on the list.</p>
 
-      <p>The number of votes that each candidate needs to acquire in order to be elected depends on two main factors: (1) the <strong>valid number of votes that were cast</strong> and (2) the <strong>number of seats that need to be filled in each particular district</strong>. Both factors are added into one of two different formulas to set the quota: <a href="https://en.wikipedia.org/wiki/Droop_quota" target="_blank"><strong>Droop</strong> quota</a> and <a href="https://en.wikipedia.org/wiki/Hare_quota" target="_blank"><strong>Hare</strong> quota</a></p>
+      <p>The number of votes that each candidate needs to acquire in order to be elected depends on two main factors: (1) the <strong>valid number of votes that were cast</strong> and (2) the <strong>number of seats that need to be filled in each particular district</strong>. Both factors are added into one of two different formulas to set the quota: <a href="https://en.wikipedia.org/wiki/Droop_quota" target="_blank"><strong>Droop</strong> quota</a> and <a href="https://en.wikipedia.org/wiki/Hare_quota" target="_blank"><strong>Hare</strong> quota</a>, with the former being the most used worldwide. Both of these quotas are also used in PLPR and MMP (listed above)</p>
 
       <p>When it comes to determining who will be elected to each seat in the district, each ballots' first preference votes would be counted. Afterwards, the process is as follows:</p>
 
@@ -154,6 +168,8 @@
 
           <li>Steps 1 through 3 are repeated until every seat is filled or there are as many seats left as the remaining candidates. In the latter case, even if the remaining candidates have fewer votes than the [minimum] quota, they could end up elected as long as their final preference votes are closer to the quota than their nearest competitor(s).</li>
         </ol>
+    </div>
+  </div>
 
   </section>
 

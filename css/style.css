@@ -67,3 +67,7 @@ figcaption {
   -moz-border-radius: 50px 50px;
   border-radius: 50px 50px;
 }
+
+.ui-widget-content {
+  background: none;
+}
