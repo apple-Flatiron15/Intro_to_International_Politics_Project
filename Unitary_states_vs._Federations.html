@@ -3,23 +3,42 @@
 <head>
 <meta charset="UTF-8">
 <title>Unitary states vs. Federations</title>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="javascript/tabs.js"></script>
 <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <div class="background-image"></div>
-  <img src="project_images/Map_of_unitary_and_federal_states.png" alt="Unitary-states-and-federations-map" height="200px" width="400px">
-  <figcaption><img src="project_images/dark-green-box.jpg" alt="Dark-Green-Icon" height="25px" width="25px"><strong>Federations (Federal states)</strong><br/><img src="project_images/blue-box.gif" alt="Blue-colored-icon" height="25px" width="25px"><strong>Unitary states</strong></figcaption>
+
+  <a href="project_images/Map_of_unitary_and_federal_states (enlarged).svg" target="_blank"><img src="project_images/Map_of_unitary_and_federal_states.png" alt="Unitary-states-and-federations-map" height="200px" width="400px"></a>
+
+  <figcaption>
+    <img src="project_images/dark-green-box.jpg" alt="Dark-Green-Icon" height="25px" width="25px"><strong>Federations (Federal states)</strong> <br/>
+    
+    <img src="project_images/blue-box.gif" alt="Blue-colored-icon" height="25px" width="25px"><strong>Unitary states</strong>
+  </figcaption>
 
   <header>
     <h1>Differences between the two main forms of states</h1>
   </header>
 
 <section>
+  <div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">Unitary states</a></li>
+      <li><a href="#tabs-2">Federations</a></li>
+    </ul>
+
+  <div id="tabs-1">
     <h2>Unitary states</h2>
       <p></p>
+  </div>
 
-    <h2>Federations</h2>
+  <div id="tabs-2">
+    <h2><a href="https://en.wikipedia.org/wiki/Federation" target="_blank">Federations</a></h2>
       <p>A Federation is a nation with its overall power divided between the federal (central) government and its respective [mostly] self-governing states/regions/provinces that could mirror (to a certain extent) their federal counterpart in terms of adminstrative, legislative, and judicial power. In most cases, the constitution of a federation would lay out, in general, the powers, responsibilities, and rights of its political divisions (differs between countries).</p>
 
       <p>These political divisions (e.g., states, regions, provinces (names vary between different federations)) would also have their own constitutions (among other important documents that stress their own obligations and commitments to their own citizens, along with their relationships with their federal counterparts (e.g., criminal codes, human rights acts) and other jurisdictions).</p>
@@ -29,199 +48,199 @@
           <th>Year Established</th>
           <th>Name of Federation</th>
           <th>Political Divisions</th>
-          <th>Sub-Divisions (if applicable)</th>
+          <th>Continent/Region</th>
         </tr>
 
         <tr>
           <td>1776</td>
           <td><strong><a href="https://en.wikipedia.org/wiki/United_States" target="_blank">United States of America (U.S.A.)</a></strong></td>
-          <td><a href="https://en.wikipedia.org/wiki/U.S._state" target="_blank">States of the U.S. (50)</a></td>
-          <td>1 federal district (<a href="https://en.wikipedia.org/wiki/Washington,_D.C." target="_blank">Washington, D.C.</a>), 5 populated commonwealths and incorporated/unincoporated territories (<a href="https://en.wikipedia.org/wiki/Puerto_Rico" target="_blank">Puerto Rico</a>, <a href="https://en.wikipedia.org/wiki/United_States_Virgin_Islands" target="_blank">U.S. Virgin Islands</a>, <a href="https://en.wikipedia.org/wiki/Guam" target="_blank">Guam</a>, <a href="https://en.wikipedia.org/wiki/Northern_Mariana_Islands" target="_blank">Northern Mariana Islands</a>, <a href="https://en.wikipedia.org/wiki/American_Samoa" target="_blank">American Samoa</a>), and a number of <a href="https://en.wikipedia.org/wiki/Guano_Islands_Act" target="_blank">unpopulated unincorporated (mostly)/incorporated territories</a> </td>
+          <td><a href="https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States" target="_blank">States of the U.S. (50), 1 federal district, 5 inhabited territories/commonwealths, and 11 uninhabited and/or disputed territories</a></td>
+          <td><strong>North America</strong></td>
         </tr>
 
         <tr>
           <td>1821</td>
           <td><strong><a href="https://en.wikipedia.org/wiki/Mexico" target="_blank">Mexico</a></strong></td>
           <td><a href="https://en.wikipedia.org/wiki/Administrative_divisions_of_Mexico" target="_blank">States of Mexico (31)</a> + 1 federal district (<a href="https://en.wikipedia.org/wiki/Mexico_City" target="_blank">Mexico City</a>)</td>
-          <td><a href="https://en.wikipedia.org/wiki/Municipalities_of_Mexico" target="_blank">2,442 municipalities</a></td>
+          <td><strong>North America</strong></td>
         </tr>
 
         <tr>
           <td>1848</td>
           <td><strong><a href="https://en.wikipedia.org/wiki/Switzerland" target="_blank">Switzerland</a></strong></td>
           <td><a href="https://en.wikipedia.org/wiki/Cantons_of_Switzerland" target="_blank">Cantons of Switzerland (26)</a></td>
-          <td></td>
+          <td><strong>Central Europe</strong></td>
         </tr>
 
         <tr>
           <td>1853</td>
           <td><strong><a href="https://en.wikipedia.org/wiki/Argentina" target="_blank">Argentina</a></strong></td>
-          <td><a href="https://en.wikipedia.org/wiki/Provinces_of_Argentina" target="_blank">Provinces of Argentina</a></td>
-          <td>1 autonomous city (<a href="https://en.wikipedia.org/wiki/Buenos_Aires" target="_blank">Buenos Aires</a>)</td>
+          <td><a href="https://en.wikipedia.org/wiki/Provinces_of_Argentina" target="_blank">Provinces of Argentina (23)</a> + 1 autonomous city (<a href="https://en.wikipedia.org/wiki/Buenos_Aires" target="_blank">Buenos Aires</a>)</td>
+          <td><strong>South America</strong></td>
         </tr>
 
         <tr>
           <td>1863</td>
           <td><strong><a href="https://en.wikipedia.org/wiki/Venezuela" target="_blank">Venezuela</a></strong></td>
-          <td><a href="https://en.wikipedia.org/wiki/States_of_Venezuela" target="_blank">States of Venezuela</a></td>
-          <td>1 federal district (<a href="https://en.wikipedia.org/wiki/Caracas" target="_blank">Caracas</a>) + <a href="https://en.wikipedia.org/wiki/Federal_Dependencies_of_Venezuela" target="_blank">federal dependencies</a></td>
+          <td><a href="https://en.wikipedia.org/wiki/States_of_Venezuela" target="_blank">States of Venezuela (23)</a> + 1 federal district (<a href="https://en.wikipedia.org/wiki/Caracas" target="_blank">Caracas</a>) and a number of <a href="https://en.wikipedia.org/wiki/Federal_Dependencies_of_Venezuela" target="_blank">federal dependencies</a></td>
+          <td><strong>South America</strong></td>
         </tr>
 
         <tr>
           <td>1867</td>
           <td><strong><a href="https://en.wikipedia.org/wiki/Canada" target="_blank">Canada</a></strong></td>
           <td><a href="https://en.wikipedia.org/wiki/Provinces_and_territories_of_Canada" target="_blank">Provinces (10) and territories (3) of Canada</a></td>
-          <td>3 territories (<a href="https://en.wikipedia.org/wiki/Northwest_Territories" target="_blank">Northwest Territories</a>, <a href="https://en.wikipedia.org/wiki/Nunavut" target="_blank">Nunavut</a>, and <a href="https://en.wikipedia.org/wiki/Yukon" target="_blank">Yukon</a>)</td>
+          <td><strong>North America</strong></td>
         </tr>
 
         <tr>
           <td>1889</td>
           <td><strong><a href="https://en.wikipedia.org/wiki/Brazil" target="_blank">Brazil</a></strong></td>
           <td><a href="https://en.wikipedia.org/wiki/States_of_Brazil" target="_blank">States of Brazil (26)</a> + 1 federal district (<a href="https://en.wikipedia.org/wiki/Bras%C3%ADlia" target="_blank">Brasília</a>)</td>
-          <td><a href="https://en.wikipedia.org/wiki/Municipalities_of_Brazil" target="_blank">5,570 municipalities</a></td>
+          <td><strong>South America</strong></td>
         </tr>
 
         <tr>
           <td>1901</td>
           <td><strong><a href="https://en.wikipedia.org/wiki/Australia" target="_blank">Australia</a></strong></td>
-          <td><a href="https://en.wikipedia.org/wiki/States_and_territories_of_Australia" target="_blank">States (6) and territories (2) of Australia</a></td>
-          <td>2 territories (<a href="https://en.wikipedia.org/wiki/Northern_Territory" target="_blank">Northern Territory</a> and <a href="https://en.wikipedia.org/wiki/Australian_Capital_Territory" target="_blank">Australian Capital Territory (ACT)</a>) and a number of populated/unpopulated islands/territories (labeled '[n 1]' on the left-hand side in the link in the previous column)</td>
+          <td><a href="https://en.wikipedia.org/wiki/States_and_territories_of_Australia" target="_blank">States (6), [mainland] territories (2), and other islands/territories (8) of Australia</a></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/Oceania" target="_blank">Oceania</a></strong></td>
         </tr>
         
         <tr>
           <td>1918</td>
           <td><strong><a href="https://en.wikipedia.org/wiki/Russia" target="_blank">Russia</a></strong></td>
-          <td><a href="https://en.wikipedia.org/wiki/Federal_subjects_of_Russia" target="_blank">Federal subjects of Russia</a></td>
-          <td></td>
+          <td><a href="https://en.wikipedia.org/wiki/Federal_subjects_of_Russia" target="_blank">Federal subjects of Russia (85)</a></td>
+          <td><strong>Eastern Europe/Northern Asia</strong></td>
         </tr>
 
         <tr>
           <td>1920</td>
           <td><strong><a href="https://en.wikipedia.org/wiki/Austria" target="_blank">Austria</a></strong></td>
           <td><a href="https://en.wikipedia.org/wiki/States_of_Austria" target="_blank">States of Austria (9)</a></td>
-          <td></td>
+          <td><strong>Central Europe</strong></td>
         </tr>
 
         <tr>
           <td>1949</td>
           <td><strong><a href="https://en.wikipedia.org/wiki/Germany" target="_blank">Germany</a></strong></td>
           <td><a href="https://en.wikipedia.org/wiki/States_of_Germany" target="_blank">States of Germany (16)</a></td>
-          <td></td>
+          <td><strong>Central Europe</strong></td>
         </tr>
 
         <tr>
           <td>1950</td>
           <td><strong><a href="https://en.wikipedia.org/wiki/India" target="_blank">India</a></strong></td>
-          <td><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India" target="_blank">States (29) and territories (7) of India</a></td>
-          <td></td>
+          <td><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India" target="_blank">States (29) and [Union] territories (7) of India</a></td>
+          <td><strong>Southern Asia</strong></td>
         </tr>
 
         <tr>
           <td>1956</td>
-          <td>Pakistan</td>
-          <td></td>
-          <td></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/Pakistan" target="_blank">Pakistan</a></strong></td>
+          <td><a href="https://en.wikipedia.org/wiki/Administrative_units_of_Pakistan" target="_blank">Provinces (4) and territories (4) of Pakistan</a></td>
+          <td><strong>Southern Asia</strong></td>
         </tr>                
 
         <tr>
           <td>1956</td>
-          <td>Sudan</td>
-          <td></td>
-          <td></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/Sudan" target="_blank">Sudan</a></strong></td>
+          <td><a href="https://en.wikipedia.org/wiki/States_of_Sudan" target="_blank">States of Sudan (17)</a></td>
+          <td><strong>North/East Africa</strong></td>
         </tr> 
 
         <tr>
           <td>1963</td>
-          <td>Malaysia</td>
-          <td></td>
-          <td></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/Malaysia" target="_blank">Malaysia</a></strong></td>
+          <td><a href="https://en.wikipedia.org/wiki/States_and_federal_territories_of_Malaysia" target="_blank">States (13) and Federal territories (3) of Malaysia</a></td>
+          <td><strong>Southeast Asia</strong></td>
         </tr> 
 
         <tr>
           <td>1963</td>
-          <td>Nigeria</td>
-          <td></td>
-          <td></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/Nigeria" target="_blank">Nigeria</a></strong></td>
+          <td><a href="https://en.wikipedia.org/wiki/States_of_Nigeria" target="_blank">States of Nigeria (36) and 1 federal capital territory</a></td>
+          <td><strong>Western Africa</strong></td>
         </tr> 
 
         <tr>
           <td>1970</td>
-          <td>Belgium</td>
-          <td></td>
-          <td></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/Belgium" target="_blank">Belgium</a></strong></td>
+          <td><a href="https://en.wikipedia.org/wiki/Communities,_regions_and_language_areas_of_Belgium" target="_blank">Divisions of Belgium (3 regions and 3 [different-language] Communities (Dutch, French, and German))</a></td>
+          <td><strong>Western Europe ('<a href="https://en.wikipedia.org/wiki/Low_Countries" target="_blank">Low-Countries</a>')</strong></td>
         </tr> 
 
         <tr>
           <td>1971</td>
-          <td>United Arab Emirates (U.A.E.)</td>
-          <td></td>
-          <td></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/United_Arab_Emirates" target="_blank">United Arab Emirates (U.A.E.)</a></strong></td>
+          <td><a href="https://en.wikipedia.org/wiki/Emirates_of_the_United_Arab_Emirates" target="_blank">Emirates of the UAE (7)</a></td>
+          <td><strong>Southwest Asia ('<a href="https://en.wikipedia.org/wiki/Middle_East" target="_blank">Middle East</a>')</strong></td>
         </tr> 
 
         <tr>
           <td>1975</td>
-          <td>Comoros</td>
-          <td></td>
-          <td></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/Comoros" target="_blank">Comoros</a></strong></td>
+          <td><a href="https://en.wikipedia.org/wiki/Politics_of_the_Comoros" target="_blank">3 islands</a></td>
+          <td><strong>Eastern Africa ('<a href="https://en.wikipedia.org/wiki/East_Africa" target="_blank">East African</a> Western <a href="https://en.wikipedia.org/wiki/List_of_islands_in_the_Indian_Ocean" target="_blank">Indian Ocean Islands</a>')</strong></td>
         </tr> 
 
         <tr>
           <td>1979</td>
-          <td>Federated States of Micronesia</td>
-          <td></td>
-          <td></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/Federated_States_of_Micronesia" target="_blank">Federated States of Micronesia</a></strong></td>
+          <td><a href="https://en.wikipedia.org/wiki/Administrative_divisions_of_the_Federated_States_of_Micronesia" target="_blank">States of the Federated States of Micronesia (4)</a></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/Micronesia" target="_blank">Micronesia</a> (subregion of Oceania)</strong></td>
         </tr>
 
         <tr>
           <td>1983</td>
-          <td>Saint Kitts and Nevis</td>
-          <td></td>
-          <td></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis" target="_blank">Saint Kitts and Nevis</a></strong></td>
+          <td><a href="https://en.wikipedia.org/wiki/Politics_of_Saint_Kitts_and_Nevis#Administrative_divisions" target="_blank">2 islands, consisting of 14 parrishes</a></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/Lesser_Antilles" target="_blank">Lesser Antilles</a> (subregion of the <a href="https://en.wikipedia.org/wiki/Caribbean" target="_blank">Carribean</a>)</strong></td>
         </tr>
 
         <tr>
           <td>1995</td>
-          <td>Bosnia and Herzegovina</td>
-          <td></td>
-          <td></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina" target="_blank">Bosnia and Herzegovina</a></strong></td>
+          <td><a href="https://en.wikipedia.org/wiki/Political_divisions_of_Bosnia_and_Herzegovina" target="_blank">2 entities (one of which is divided into 10 subregions ('cantons')) and 1 internationally-supervised district</a></td>
+          <td><strong>Southeastern Europe ('<a href="https://en.wikipedia.org/wiki/Balkans" target="_blank">Balkans</a> region')</strong></td>
         </tr>
 
         <tr>
           <td>1995</td>
-          <td>Ethiopia</td>
-          <td></td>
-          <td></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/Ethiopia" target="_blank">Ethiopia</a></strong></td>
+          <td><a href="https://en.wikipedia.org/wiki/Regions_of_Ethiopia" target="_blank">Regions (9) and administrative cities (2) of Ethiopia</a></td>
+          <td><strong>Eastern Africa</strong></td>
         </tr>
 
         <tr>
           <td>2005</td>
-          <td>Iraq</td>
-          <td></td>
-          <td></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/Iraq" target="_blank">Iraq</a></strong></td>
+          <td><a href="https://en.wikipedia.org/wiki/Governorates_of_Iraq" target="_blank">Governorates (provinces) of Iraq (19)</a></td>
+          <td><strong>Southwest Asia ('<a href="https://en.wikipedia.org/wiki/Middle_East" target="_blank">Middle East</a>')</strong></td>
         </tr>
 
         <tr>
           <td>2008</td>
-          <td>Nepal</td>
-          <td></td>
-          <td></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/Nepal" target="_blank">Nepal</a></strong></td>
+          <td><a href="https://en.wikipedia.org/wiki/List_of_zones_of_Nepal" target="_blank">Administrative Zones (14), consisting of 75 districts</a></td>
+          <td><strong>Southern Asia</strong></td>
         </tr>
 
         <tr>
           <td>2011</td>
-          <td>South Sudan</td>
-          <td></td>
-          <td></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/South_Sudan" target="_blank">South Sudan</a></strong></td>
+          <td><a href="https://en.wikipedia.org/wiki/States_of_South_Sudan" target="_blank">States of South Sudan (10), consisting of 86 counties</a></td>
+          <td><strong>Eastern Africa</strong></td>
         </tr>
 
         <tr>
           <td>2012</td>
-          <td>Somalia</td>
-          <td></td>
-          <td></td>
+          <td><strong><a href="https://en.wikipedia.org/wiki/Somalia" target="_blank">Somalia</a></strong></td>
+          <td><a href="https://en.wikipedia.org/wiki/Administrative_divisions_of_Somalia" target="_blank">Administrative Regions (18), consisting of 90 districts</a></td>
+          <td><strong>Eastern Africa</strong></td>
         </tr>
-
       </table>
+  </div>
 </section>
 
 <footer>
