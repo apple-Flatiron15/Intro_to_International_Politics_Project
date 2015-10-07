@@ -35,12 +35,12 @@ li, p {
   line-height: 1.5em;
 }
 
-th {
+th, td {
   text-align: center;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
-td li {
+td, li {
   line-height: 2em;
   margin: none;
 }
@@ -59,7 +59,7 @@ iframe {
   display: block;
 }
 
-img{
+img {
   margin: 0px auto;
   display: block;
 }
