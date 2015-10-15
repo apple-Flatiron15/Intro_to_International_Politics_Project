@@ -3,11 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <title>Methods of Voting</title>
-<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-  <script src="javascript/tabs.js"></script>
-<link rel="stylesheet" href="css/style.css">
+  <!-- Page Tabs -->
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="javascript/tabs.js"></script>
+  <!-- End of 'Page Tabs' CSS and JavaScript code sources -->
+
+  <!-- 'Bootstrap Carousel' -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src = "javascript/carousel.js"></script>
+  <!-- End of 'Bootstrap Carousel' CSS and JavaScript code sources -->
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -130,8 +142,8 @@
 
       <p>An aspect that is apparently exclusive to the MMP are <a href="https://en.wikipedia.org/wiki/Overhang_seat" target="_blank">overhang seats</a>, which occurs when a political party wins more seats than it is entitled to, based on the proportionality of votes that it accumulated during election day. Only <a href="http://www.idea.int/esd/type.cfm?electoralSystem=MMP" target="_blank">9 known countries</a> utilizes MMP or a variation of it.</p>
 
-    <div id="video">
-<!--       <video width="400" controls>
+<!--     <div id="video">
+      <video width="400" controls>
         <source src="project_videos/MMP_Representation_Explained.mp4" type="video/mp4">
         <source src="project_videos/MMP_Representation_Explained.ogg" type="video/ogg">
         <source src="project_videos/MMP_Representation_Explained.webm" type="video/webm">
@@ -163,8 +175,62 @@
 
           <li>Steps 1 through 3 are repeated until every seat is filled or there are as many seats left as the remaining candidates. In the latter case, even if the remaining candidates have fewer votes than the [minimum] quota, they could end up elected as long as their final preference votes are closer to the quota than their nearest competitor(s).</li>
         </ol>
-    </div>
+
+      
+      <div class="col-xs-12">
+        <!-- Video Carousel -->
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+              </ol>
+
+           <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/l8XOZJkozfI" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+                <div class="item">
+                  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wRc630BSTIg" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+                <div class="item">
+                  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PukSDm0RD2E" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+                <div class="item">
+                  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8DNtsjB7L_I" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+                <div class="item">
+                  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ac9070OIMUg" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div> <!-- .carousel-inner -->
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div> <!-- #carousel-example-generic -->
+        </div> <!-- .col-xs-12 -->
+
+      <p> Video courtesy of <a href="https://www.youtube.com/user/CGPGrey/featured" target="_blank">CGP Grey</a>.
+      </p>
+
+    <!-- Message - In case you're wondering, the YouTube videos on this page aren't mine. I've emailed the uploader of the videos and asked if I could utilize these videos for my personal project. I got a response back, saying that I could use these videos, but [only] under one condition: (quote) "...so long as you use the embed code from YouTube..." and gave me a link in case I need help with embedding (http://help.edublogs.org/embed-videos/). Hence, in this image carousel above, you would not be able to stop a video from playing as soon as you move to the next/previous one, but you must do so manually. Also, I've "commented out" every 'video' code on both page tabs, so they would be consistant with the condition. -->
+
   </div>
+</div>
 
   </section>
 
