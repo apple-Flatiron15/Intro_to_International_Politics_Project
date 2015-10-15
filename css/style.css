@@ -95,3 +95,6 @@ a:focus {
   color: green;
 }
 
+p {
+  text-align: center;
+}
